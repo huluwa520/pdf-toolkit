@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
 
-  const baseUrl = "https://pdf-toolkit-sooty.vercel.app";
+  const baseUrl = "https://pdftoolkitapp.com";
 
   return {
     rules: {
