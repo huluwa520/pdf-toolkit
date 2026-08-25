@@ -4,11 +4,10 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
 
   title:
-    "Merge PDF Online Free - Combine PDF Files",
+    "Merge PDF Online Free - Combine Multiple PDF Files | PDF Toolkit",
 
   description:
-    "Merge multiple PDF files into one document online for free. Fast and easy PDF merge tool.",
-
+    "Merge multiple PDF files online for free. Combine PDF documents quickly and securely with our easy PDF merge tool.",
 };
 
 
