@@ -33,7 +33,7 @@ export default function Home() {
     {
       title: "JPG to PDF",
       description:
-        "Convert images into PDF documents online.",
+        "Convert JPG and PNG images into PDF files online for free.",
       link: "/jpg-to-pdf"
     },
 
@@ -68,8 +68,8 @@ export default function Home() {
 
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
 
-          Compress, merge, split and convert PDF files easily.
-          Fast, secure and completely free.
+        Compress, merge, split and convert PDF files online for free.
+        Fast, secure and easy-to-use PDF tools for everyone.
 
         </p>
 
