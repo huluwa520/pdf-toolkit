@@ -35,9 +35,6 @@ export const metadata: Metadata = {
     "Free PDF tools",
   ],
 
-  alternates: {
-    canonical: "https://pdftoolkitapp.com",
-  },
 
   openGraph: {
     title: "Free Online PDF Tools - PDF Toolkit",
