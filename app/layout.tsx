@@ -60,7 +60,26 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en">
 
     <body className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      name: "PDF Toolkit",
+      url: "https://pdftoolkitapp.com",
+      applicationCategory: "UtilityApplication",
+      operatingSystem: "Web",
+      description:
+        "Free online PDF tools to compress, merge, split and convert PDF files quickly and securely.",
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "USD",
+      },
+    }),
+  }}
+/>
     <Header />
 
     {children}
