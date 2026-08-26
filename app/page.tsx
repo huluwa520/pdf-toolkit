@@ -168,7 +168,27 @@ export default function Home() {
           for everyday document tasks.
           You can compress PDF files, merge documents,
           split PDF pages and convert images easily.
+                    
+          <h3 className="text-2xl font-bold mt-8 mb-4">
+            How to Use PDF Toolkit
+          </h3>
 
+          <p className="text-gray-700 leading-8">
+            Choose a PDF tool, upload your file,
+            process your document and download the result.
+            PDF Toolkit makes PDF tasks simple and fast.
+          </p>
+
+
+          <h3 className="text-2xl font-bold mt-8 mb-4">
+            Why Choose PDF Toolkit
+          </h3>
+
+          <p className="text-gray-700 leading-8">
+            PDF Toolkit provides free online PDF tools
+            with a simple interface, fast processing
+            and secure document handling.
+          </p>
 
         </p>
 
